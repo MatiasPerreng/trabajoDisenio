@@ -10,7 +10,6 @@ img{
 body {
 	align-items: center;
 	background-color: var(--white);
-    background-color: ;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -19,8 +18,12 @@ body {
 	height: 100vh;
 	place-items: center;
 }
+.submenu li{
+    display: none;
+}
 
-#contenedor{
+.menu li:hover .submenu{
+    display: block;
 }
 
 
