@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+img{
+    width: 200px;
+}
+
+body {
+	align-items: center;
+	background-color: var(--white);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	height: 100vh;
+	place-items: center;
+}
+.submenu li{
+    display: none;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+
+.nav ul{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+}
+
+li{
+    list-style: none; 
+    padding: 20px;
+    background-color: black;
+   
+}
+
+.nav li:hover {
+    background-color: #434343;
+}
+
+   a{
+    text-decoration: none;
+    color:#ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   } .contenedorCuatro a {
+        text-decoration: none;
+        color:#ffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.form {
+	background-color:rgb(224, 134, 60);
+    font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 3rem;
+	text-align: center;
+    height: 500px;
+    box-shadow: -4px 7px 35px 4px;
+}
+
+.input {
+	background-color: #fff;
+	border: none;
+	padding: 0.9rem 0.9rem;
+	margin: 0.5rem 0;
+	width: 100%;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form > .btn {
+	margin-top: 1.5rem;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+.btn:focus {
+	outline: none;
+}
+
