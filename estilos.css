@@ -2,22 +2,25 @@
     margin: 0;
     padding:0;
 }
+body{
+    background-color: rgb(182, 231, 163);
+    font-family: 'Nunito';
+    color: #384047;
+}
 
 img{
-    width: 200px;
+    width: 10vw;
+
+}
+.imagen{
+
+}
+#contenedor{
+    display: grid; 
+    gap: 5px;
+
 }
 
-body {
-	align-items: center;
-	background-color: var(--white);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: grid;
-	height: 100vh;
-	place-items: center;
-}
 .submenu li{
     display: none;
 }
@@ -25,11 +28,18 @@ body {
 .menu li:hover .submenu{
     display: block;
 }
-
+ .nav > * {
+     margin:20px;
+     width:70%;
+     text-align: center;
+ }
+ .header{
+     background-color: black;
+ }
 
 .nav ul{
     display: grid;
-    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-columns:repeat(4, 1fr) ;
 }
 
 li{
@@ -55,8 +65,14 @@ li{
     
 }
 
+.formulario{
+    width: 300px;
+    margin: auto;
+
+}
+
 .form {
-	background-color:rgb(224, 134, 60);
+	background-color:rgb(103, 180, 103);
     font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	align-items: center;
@@ -66,7 +82,9 @@ li{
 	text-align: center;
     height: 500px;
     box-shadow: -4px 7px 35px 4px;
+
 }
+
 
 .input {
 	background-color: #fff;
@@ -76,6 +94,21 @@ li{
 	width: 100%;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.input2{
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+
 }
 
 .form > .btn {
