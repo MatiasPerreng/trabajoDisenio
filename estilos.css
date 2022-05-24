@@ -1,85 +1,96 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: rgb(182, 231, 163);
     font-family: 'Nunito';
     color: #384047;
 }
 
-img{
-    width: 10vw;
-
-}
-.imagen{
-
-}
-#contenedor{
-    display: grid; 
-    gap: 5px;
-
+img {
+    width: 3em;
+    position: relative;
+    left: 15em;
 }
 
-.submenu li{
+.dos {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+
+
+#contenedor {
+    display: grid;
+    gap: 50px;
+
+}
+
+.submenu li {
     display: none;
 }
 
-.menu li:hover .submenu{
+.menu li a:hover .submenu {
     display: block;
 }
- .nav > * {
-     margin:20px;
-     width:70%;
-     text-align: center;
- }
- .header{
-     background-color: black;
- }
 
-.nav ul{
-    display: grid;
-    grid-template-columns:repeat(4, 1fr) ;
+.nav > * {
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
-li{
-    list-style: none; 
+.header {
+    background-color: black;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.menu>li {
+    list-style: none;
     padding: 20px;
     background-color: black;
-   
+
 }
 
 .nav li:hover {
     background-color: #434343;
 }
 
-   a{
+a {
     text-decoration: none;
-    color:#ffff;
+    color: #ffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-   } .contenedorCuatro a {
-        text-decoration: none;
-        color:#ffff;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 
-.formulario{
+.contenedorCuatro a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario {
     width: 300px;
     margin: auto;
 
 }
 
 .form {
-	background-color:rgb(103, 180, 103);
+    background-color: rgb(103, 180, 103);
     font-family: Arial, Helvetica, sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 3rem;
-	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+    text-align: center;
     height: 500px;
     box-shadow: -4px 7px 35px 4px;
 
@@ -87,41 +98,74 @@ li{
 
 
 .input {
-	background-color: #fff;
-	border: none;
-	padding: 0.9rem 0.9rem;
-	margin: 0.5rem 0;
-	width: 100%;
+    background-color: #fff;
+    border: none;
+    padding: 0.9rem 0.9rem;
+    margin: 0.5rem 0;
+    width: 100%;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.input2{
-    background: rgba(255,255,255,0.1);
+.input2 {
+    background: rgba(255, 255, 255, 0.1);
     border: none;
     font-size: 16px;
-    height: auto;
+    height: 0.5em;
     margin: 0;
     outline: 0;
     padding: 15px;
-    width: 100%;
+    width: 10em;
     background-color: #e8eeef;
     color: #8a97a0;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
 
 }
 
-.form > .btn {
-	margin-top: 1.5rem;
+.form>.btn {
+    margin-top: 1.5rem;
     padding: 10px 25px;
     border-radius: 15px;
 }
 
 .btn:active {
-	transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 .btn:focus {
-	outline: none;
+    outline: none;
 }
 
+.menu>li {
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+
+}
+
+.Enlaces>li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+
+}
+
+.Enlaces>li:hover {
+    background-color: #434343;
+}
+@media all and (max-width: 600px){
+    img {
+        width: 3em;
+        position: relative;
+        left: 4em;
+}
+}
+@media all and (max-width: 900px){
+    img {
+        width: 3em;
+        position: relative;
+        left: 7em;
+}
+}
