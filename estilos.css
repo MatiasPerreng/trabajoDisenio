@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -83,7 +84,7 @@ a {
 }
 
 .form {
-    background-color: rgb(103, 180, 103);
+    background-color: rgb(128, 184, 128);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
@@ -112,7 +113,7 @@ a {
     border: none;
     font-size: 16px;
     height: 0.5em;
-    margin: 0;
+    margin: 0.5em;
     outline: 0;
     padding: 15px;
     width: 10em;
@@ -162,6 +163,14 @@ a {
         left: 4em;
 }
 }
+@media all and (max-width: 500px){
+    img {
+        width: 3em;
+        position: relative;
+        left: 2em;
+}
+}
+
 @media all and (max-width: 900px){
     img {
         width: 3em;
