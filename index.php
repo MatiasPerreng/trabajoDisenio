@@ -36,14 +36,14 @@
     <div id="contenedor">
         <!--FORMULARIO-->
         <div class="formulario">
-            <form method="post" class="form">
+            <form action="registrar.php" method="post" class="form">
                 Cedula: <input type="number" name="cedula" placeholder="Cedula" class="input">
                 <br>
                 Nombre: <input type="text" name="nombre" placeholder="Nombre" class="input">
                 <br>
                 Apellido : <input type="text" name="apellido" placeholder="Apellido" class="input">
                 <br>
-                Especificación: <input type="text" name="especificacion" placeholder="Especificación" class="input">
+                Telefono : <input type="number" name="telefono" placeholder="Telefono" class="input">
                 <br>
                 <input type="submit" name="enviar" class="btn">
         </div>

@@ -175,7 +175,7 @@ footer{
     img {
         width: 3em;
         position: relative;
-        left: 2em;
+        left: 0.5em;
 }
 }
 @media all and (max-width: 600px){
