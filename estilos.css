@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(182, 231, 163);
-    font-family: 'Nunito';
-    color: #384047;
+body {s
+        font-family: 'Nunito';
+        color: #384047;
+	align-items: center;
+	background-color: var(--white);
+	background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	height: 100vh;
+	place-items: center;
 }
 
 img {
